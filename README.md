@@ -70,6 +70,30 @@ npm run start
 yarn start
 ```
 
+## Docker Deployment
+
+The project includes Docker configuration for easy deployment.
+
+### Build and run with Docker
+
+```bash
+# Build the Docker image
+docker build -t marketing-agency .
+
+# Run the container
+docker run -p 3000:3000 marketing-agency
+```
+
+### Using Docker Compose
+
+```bash
+# Build and run with Docker Compose
+docker-compose up -d
+
+# Stop the container
+docker-compose down
+```
+
 ## License
 
 This project is licensed under the MIT License.
