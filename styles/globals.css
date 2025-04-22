@@ -10,7 +10,7 @@ body {
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #4F46E5 0%, #9333EA 100%);
+    background: linear-gradient(135deg, #005583 0%, #41BBFE 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -27,7 +27,7 @@ body {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: #4F46E5;
+    background-color: #075985;
     transition: width 0.3s ease;
 }
 
@@ -83,33 +83,34 @@ body {
 
 .social-icon:hover {
     transform: translateY(-3px);
-    color: #4F46E5;
+    color: #075985;
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #4F46E5 0%, #9333EA 100%);
+    background: linear-gradient(135deg, #005583 0%, #41BBFE 100%);
     transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
+    box-shadow: 0 10px 15px -3px rgba(7, 89, 133, 0.3);
 }
 
 .btn-outline {
-    border: 2px solid #4F46E5;
+    border: 2px solid #075985;
+    color: #075985;
     transition: all 0.3s ease;
 }
 
 .btn-outline:hover {
-    background-color: #4F46E5;
+    background-color: #075985;
     color: white;
 }
 
 .counter {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #4F46E5;
+    color: #075985;
 }
 
 .contact-input {
@@ -117,8 +118,8 @@ body {
 }
 
 .contact-input:focus {
-    border-color: #4F46E5;
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+    border-color: #075985;
+    box-shadow: 0 0 0 3px rgba(7, 89, 133, 0.2);
 }
 
 #navbar {
@@ -132,7 +133,7 @@ body {
 
 .progress-bar {
     height: 4px;
-    background: linear-gradient(135deg, #4F46E5 0%, #9333EA 100%);
+    background: linear-gradient(135deg, #005583 0%, #41BBFE 100%);
     width: 0%;
     position: fixed;
     top: 0;
@@ -233,5 +234,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4F46E5;
+    background: #075985;
 } 
