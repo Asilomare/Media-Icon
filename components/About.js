@@ -9,22 +9,24 @@ export default function About() {
           <div className="md:w-1/2 md:pl-12" data-aos="fade-left">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Who We Are</h2>
             <p className="text-gray-600 mb-6">
-              Apex Marketing is a forward-thinking digital marketing agency dedicated to helping businesses of all sizes achieve their marketing goals. With a team of experienced professionals, we deliver innovative solutions that drive results.
+            We’re not just another agency — we’re your creative growth partner.
+            We specialize in strategic, organic content that connects with audiences and drives performance. Whether it’s media production, social strategy, design, or data — we turn content into your brand’s most powerful asset.
             </p>
             <p className="text-gray-600 mb-8">
-              Our approach combines creativity with data-driven strategies to create campaigns that not only look good but also perform exceptionally well in today's competitive landscape.
+            Our team blends creativity and strategy to help you grow with purpose.
+            From ideation to execution, we build systems that scale — delivering content that doesn’t just look good, but drives real, measurable results. When you work with us, you’re not just getting content. You’re getting a team obsessed with your growth.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div>
-                <h3 className="text-xl font-bold mb-2 text-indigo-600">Our Mission</h3>
+                <h3 className="text-xl font-bold mb-2 text-blue-800">Our Mission</h3>
                 <p className="text-gray-600">
-                  To empower businesses with innovative marketing solutions that drive growth and success.
+                To inspire brands to realize their full potential through organic, strategic, and data-driven content.
                 </p>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2 text-indigo-600">Our Vision</h3>
+                <h3 className="text-xl font-bold mb-2 text-blue-800">Our Vision</h3>
                 <p className="text-gray-600">
-                  To be the most trusted partner for businesses seeking to transform their digital presence.
+                To prove that the most powerful form of brand growth doesn’t require paid ads — just purpose, creativity, and consistency.
                 </p>
               </div>
             </div>
