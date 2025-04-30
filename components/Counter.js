@@ -42,9 +42,13 @@ export default function Counter({ id, end, duration = 2000 }) {
     }, 16);
   };
 
+  const formatNumber = (num) => {
+    return num.toLocaleString();
+  };
+
   return (
-    <div className="counter" id={id} ref={countRef}>
-      {count}
+    <div className="gradient-text text-5xl font-bold" id={id} ref={countRef}>
+      {formatNumber(count)}
     </div>
   );
 } 

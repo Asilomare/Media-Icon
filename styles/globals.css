@@ -110,7 +110,23 @@ body {
 .counter {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #075985;
+    /* color: #075985; */
+}
+
+.icon-primary {
+    background-color: #005583;
+}
+
+.icon-secondary {
+    background-color: #41BBFE;
+}
+
+.text-primary {
+    color: #005583;
+}
+
+.text-secondary {
+    color: #41BBFE;
 }
 
 .contact-input {

@@ -36,7 +36,7 @@ export default function Navbar() {
       
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          <h1 className="text-2xl font-bold text-blue-800">Media<span className="ml-1 text-cyan-400">Icon</span></h1>
+          <h1 className="text-2xl font-bold flex "><div className="text-primary">Media</div><span className="ml-1 text-secondary">Icon</span></h1>
         </div>
         
         {/* Desktop Menu */}
