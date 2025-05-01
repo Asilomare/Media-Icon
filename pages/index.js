@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Apex Marketing Agency</title>
-        <meta name="description" content="Apex Marketing Agency - Transform your digital presence with our data-driven marketing strategies" />
+        <title>Media Icon</title>
+        <meta name="description" content="Media Icon - Transform your digital presence with our data-driven marketing strategies" />
       </Head>
 
       <SmoothScroll />
