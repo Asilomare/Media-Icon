@@ -7,6 +7,8 @@ export default function Contact() {
     company: '',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', or null
 
   const handleChange = (e) => {
     setFormData({
@@ -15,18 +17,38 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Form submission logic would go here
-    console.log(formData);
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      message: ''
-    });
-    alert('Thank you for your message! We will be in touch soon.');
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({ name: '', email: '', company: '', message: '' }); // Reset form
+        // Optionally keep the success message for a bit longer or handle UI differently
+        alert('Thank you for your message! We will be in touch soon.');
+      } else {
+        const errorData = await response.json();
+        console.error('Form submission error:', errorData);
+        setSubmitStatus('error');
+        alert('There was an error submitting your message. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Network or other error:', error);
+      setSubmitStatus('error');
+      alert('An unexpected error occurred. Please check your connection or try again later.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -89,7 +111,16 @@ export default function Contact() {
                   required
                 ></textarea>
               </div>
-              <button type="submit" className="btn-primary w-full py-3 rounded-lg text-white font-medium">Send Message</button>
+              <button 
+                type="submit" 
+                className="btn-primary w-full py-3 rounded-lg text-white font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? 'Sending...' : 'Send Message'}
+              </button>
+              {/* Optional: Display visual feedback based on submitStatus */}
+              {submitStatus === 'success' && <p className="mt-4 text-green-600">Message sent successfully!</p>}
+              {submitStatus === 'error' && <p className="mt-4 text-red-600">Failed to send message. Please try again.</p>}
             </form>
           </div>
           
