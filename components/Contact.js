@@ -104,8 +104,8 @@ export default function Contact() {
                     <i className="fas fa-map-marker-alt text-xl"></i>
                   </div>
                   <p className="text-gray-600">
-                    123 Marketing Street, Suite 100<br />
-                    New York, NY 10001
+                    2821 Garefield Ave West Lawn<br />
+                    PA, 19609
                   </p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function Contact() {
                     <i className="fas fa-envelope text-xl"></i>
                   </div>
                   <p className="text-gray-600">
-                    hello@apexmarketing.com
+                    team@mediaicon.us
                   </p>
                 </div>
                 <div className="flex items-start">
@@ -125,7 +125,7 @@ export default function Contact() {
                     <i className="fas fa-phone-alt text-xl"></i>
                   </div>
                   <p className="text-gray-600">
-                    +1 (555) 123-4567
+                    +1 (610) 787-3182
                   </p>
                 </div>
               </div>
@@ -133,16 +133,16 @@ export default function Contact() {
               <div>
                 <p className="font-medium mb-2">Follow Us</p>
                 <div className="flex space-x-4">
-                  <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
+                  {/* <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
+                  </a> */}
+                  {/* <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
+                  </a> */}
+                  <a href="https://www.instagram.com/socialsbymediaicon" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
+                  <a href="https://www.linkedin.com/company/media-icon-llc" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>

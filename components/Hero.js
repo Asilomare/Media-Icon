@@ -22,7 +22,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="md:w-1/2" data-aos="fade-left" data-aos-duration="1000">
-            <img src="https://cdn.prod.website-files.com/6364b6fd26e298b11fb9391f/6364b6fd26e298f5fcb93c64_DrawKit0034_Digital_Marketing_Banner.png" alt="Marketing Illustration" className="w-full h-auto max-w-lg mx-auto" />
+            <img src="/hero.png" alt="Marketing Illustration" className="w-full h-auto max-w-lg mx-auto" />
           </div>
         </div>
       </div>
