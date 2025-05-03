@@ -8,7 +8,7 @@ export default function CTA() {
         <p className="text-lg mb-8 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
           Partner with us to create impactful marketing strategies that drive real results for your business.
         </p>
-        <Link href="#contact" className="inline-block px-8 py-3 bg-white text-indigo-600 rounded-full font-medium hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
+        <Link href="#contact" className="inline-block px-8 py-3 bg-white text-primary rounded-full font-medium hover:bg-gray-100 transition duration-300" data-aos="fade-up" data-aos-delay="200">
           Get Started Today
         </Link>
       </div>
