@@ -131,7 +131,7 @@ export default function Contact() {
               <div className="mb-8">
                 <p className="font-medium mb-2">Our Office</p>
                 <div className="flex items-start">
-                  <div className="text-indigo-600 mr-4">
+                  <div className="text-primary mr-4">
                     <i className="fas fa-map-marker-alt text-xl"></i>
                   </div>
                   <p className="text-gray-600">
@@ -144,7 +144,7 @@ export default function Contact() {
               <div className="mb-8">
                 <p className="font-medium mb-2">Contact Information</p>
                 <div className="flex items-start mb-4">
-                  <div className="text-indigo-600 mr-4">
+                  <div className="text-primary mr-4">
                     <i className="fas fa-envelope text-xl"></i>
                   </div>
                   <p className="text-gray-600">
@@ -152,7 +152,7 @@ export default function Contact() {
                   </p>
                 </div>
                 <div className="flex items-start">
-                  <div className="text-indigo-600 mr-4">
+                  <div className="text-primary mr-4">
                     <i className="fas fa-phone-alt text-xl"></i>
                   </div>
                   <p className="text-gray-600">
@@ -170,10 +170,10 @@ export default function Contact() {
                   {/* <a href="#" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-twitter"></i>
                   </a> */}
-                  <a href="https://www.instagram.com/socialsbymediaicon" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
+                  <a href="https://www.instagram.com/socialsbymediaicon" className="w-10 h-10 rounded-full icon-primary text-secondary flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-instagram"></i>
                   </a>
-                  <a href="https://www.linkedin.com/company/media-icon-llc" className="w-10 h-10 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center hover:bg-indigo-200 transition duration-300">
+                  <a href="https://www.linkedin.com/company/media-icon-llc" className="w-10 h-10 rounded-full icon-primary text-secondary flex items-center justify-center hover:bg-indigo-200 transition duration-300">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
