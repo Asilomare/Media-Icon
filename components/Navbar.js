@@ -43,9 +43,9 @@ export default function Navbar() {
         <nav className="hidden md:flex space-x-8">
           <Link href="#home" className="nav-link text-gray-800 font-medium">Home</Link>
           <Link href="#services" className="nav-link text-gray-800 font-medium">Services</Link>
-          <Link href="#portfolio" className="nav-link text-gray-800 font-medium">Portfolio</Link>
-          <Link href="#testimonials" className="nav-link text-gray-800 font-medium">Testimonials</Link>
-          <Link href="#team" className="nav-link text-gray-800 font-medium">Team</Link>
+          <Link href="#about" className="nav-link text-gray-800 font-medium">About</Link>
+          {/* <Link href="#testimonials" className="nav-link text-gray-800 font-medium">Testimonials</Link> */}
+          {/* <Link href="#team" className="nav-link text-gray-800 font-medium">Team</Link> */}
           <Link href="#contact" className="nav-link text-gray-800 font-medium">Contact</Link>
         </nav>
         

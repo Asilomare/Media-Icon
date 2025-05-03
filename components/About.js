@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function About() {
   return (
-    <section className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
