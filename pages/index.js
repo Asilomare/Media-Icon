@@ -19,6 +19,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Media Icon</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <meta name="description" content="Media Icon - Transform your digital presence with our data-driven marketing strategies" />
       </Head>
 
