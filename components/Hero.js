@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right" data-aos-duration="1000">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Transform Your <span className="gradient-text">Digital Presence</span> With Us
+              Make Your <span className="gradient-text">Social Presence</span> Iconic
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               We're a full-service marketing agency specialized in creating stunning brand experiences that drive growth and engagement.
