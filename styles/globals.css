@@ -18,6 +18,10 @@ body {
 
 .nav-link {
     position: relative;
+
+}
+.nav-link:hover {
+    color: #005583;
 }
 
 .nav-link::after {
@@ -27,7 +31,7 @@ body {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background-color: #075985;
+    background-color: #005583;
     transition: width 0.3s ease;
 }
 
@@ -124,6 +128,10 @@ body {
 .text-primary {
     color: #005583;
 }
+
+/* .text-primary-hover:hover {
+    color: #005583;
+} */
 
 .text-secondary {
     color: #41BBFE;

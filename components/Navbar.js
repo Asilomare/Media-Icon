@@ -41,12 +41,12 @@ export default function Navbar() {
         
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8">
-          <Link href="#home" className="nav-link text-gray-800 hover:text-indigo-600 font-medium">Home</Link>
-          <Link href="#services" className="nav-link text-gray-800 hover:text-indigo-600 font-medium">Services</Link>
-          <Link href="#portfolio" className="nav-link text-gray-800 hover:text-indigo-600 font-medium">Portfolio</Link>
-          <Link href="#testimonials" className="nav-link text-gray-800 hover:text-indigo-600 font-medium">Testimonials</Link>
-          <Link href="#team" className="nav-link text-gray-800 hover:text-indigo-600 font-medium">Team</Link>
-          <Link href="#contact" className="nav-link text-gray-800 hover:text-indigo-600 font-medium">Contact</Link>
+          <Link href="#home" className="nav-link text-gray-800 font-medium">Home</Link>
+          <Link href="#services" className="nav-link text-gray-800 font-medium">Services</Link>
+          <Link href="#portfolio" className="nav-link text-gray-800 font-medium">Portfolio</Link>
+          <Link href="#testimonials" className="nav-link text-gray-800 font-medium">Testimonials</Link>
+          <Link href="#team" className="nav-link text-gray-800 font-medium">Team</Link>
+          <Link href="#contact" className="nav-link text-gray-800 font-medium">Contact</Link>
         </nav>
         
         <div className="hidden md:block">
@@ -66,12 +66,12 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-white w-full py-4 px-4 shadow-lg`} id="mobile-menu">
         <div className="flex flex-col space-y-4">
-          <Link href="#home" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-          <Link href="#services" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Services</Link>
-          <Link href="#portfolio" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Portfolio</Link>
-          <Link href="#testimonials" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Testimonials</Link>
-          <Link href="#team" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Team</Link>
-          <Link href="#contact" className="text-gray-800 hover:text-indigo-600 font-medium" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
+          <Link href="#home" className="text-gray-800 font-medium" onClick={() => setMobileMenuOpen(false)}>Home</Link>
+          <Link href="#services" className="text-gray-800 font-medium" onClick={() => setMobileMenuOpen(false)}>Services</Link>
+          <Link href="#portfolio" className="text-gray-800 font-medium" onClick={() => setMobileMenuOpen(false)}>Portfolio</Link>
+          <Link href="#testimonials" className="text-gray-800 font-medium" onClick={() => setMobileMenuOpen(false)}>Testimonials</Link>
+          <Link href="#team" className="text-gray-800 font-medium" onClick={() => setMobileMenuOpen(false)}>Team</Link>
+          <Link href="#contact" className="text-gray-800 font-medium" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
           <Link href="#contact" className="btn-primary px-6 py-2 rounded-full text-white font-medium text-center" onClick={() => setMobileMenuOpen(false)}>Get Started</Link>
         </div>
       </div>
