@@ -16,7 +16,7 @@ export default function Hero() {
               <Link href="#contact" className="btn-primary px-8 py-3 rounded-full text-white font-medium text-center">
                 Get Started
               </Link>
-              <Link href="#services" className="btn-outline px-8 py-3 rounded-full text-indigo-600 font-medium text-center">
+              <Link href="#contact" className="btn-outline px-8 py-3 rounded-full text-indigo-600 font-medium text-center">
                 Our Services
               </Link>
             </div>
