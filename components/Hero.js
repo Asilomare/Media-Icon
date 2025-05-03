@@ -10,7 +10,7 @@ export default function Hero() {
               Make Your <span className="gradient-text"><br/>Social Presence</span> <br/>Iconic
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              We're a full-service marketing agency specialized in creating stunning brand experiences that drive growth and engagement.
+            We help brands grow by creating strategic, organic content that builds connection, drives engagement, and delivers real results.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link href="#contact" className="btn-primary px-8 py-3 rounded-full text-white font-medium text-center">
