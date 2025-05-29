@@ -135,8 +135,8 @@ export default function Contact() {
                     <i className="fas fa-map-marker-alt text-xl"></i>
                   </div>
                   <p className="text-gray-600">
-                    2821 Garefield Ave West Lawn<br />
-                    PA, 19609
+                    123 S Broad St Philadelphia<br />
+                    PA, 19109
                   </p>
                 </div>
               </div>

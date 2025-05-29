@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right" data-aos-duration="1000">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Make Your <span className="gradient-text"><br/>Social Presence</span> <br/>Iconic
+              We don't just <span className="gradient-text"><br/>market brands</span> <br/>we built them.
             </h1>
             <p className="text-lg text-gray-600 mb-8">
             We help brands grow by creating strategic, organic content that builds connection, drives engagement, and delivers real results.
